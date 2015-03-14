@@ -1,0 +1,104 @@
+body
+{
+	background-image:   url('../img/gato2.jpg');
+}
+
+#girar:hover
+{
+  /*-webkit-transform:translate(70px, 40px); */
+  /*-webkit-transform: scale(3,1.5);*/
+  -webkit-transform: rotate(3600deg);
+  /*-webkit-transform: skew(20deg,20deg);*/
+  
+}
+
+
+.petalos
+{
+	width: 100px;
+	height: 100px;
+	border: 3px dotted black;
+	transition: all 2s;
+    transition-delay: 3s;
+}
+
+#uno
+{
+	left: 0;
+	background: blue;
+	background: -webkit-linear-gradient(top, #FFFC00, #FF001D );
+	box-shadow: 10px 10px 20px green;
+    border-radius: 60px 40px 10px 40px;
+    -webkit-transform-origin: center bottom;
+}
+
+#dos
+{
+	left: 100px;
+	background: white;
+	background: -webkit-linear-gradient(top, #06FF00, #0600FF );
+	box-shadow: 10px 10px 20px yellow;
+    border-radius: 40px 60px 40px 10px;
+
+}
+
+#tres
+{
+	left: 0;
+	top: 100px;
+	background: white;
+	background: -webkit-linear-gradient(top, #06FF00, #0600FF );
+	box-shadow: 10px 10px 20px black;
+    border-radius: 40px 10px 40px 60px;
+}
+
+#cuatro
+{
+	left: 100px;
+	top: 100px;
+	background: blue;
+	background: -webkit-linear-gradient(top, #FF001D, #FFFC00 );
+	box-shadow: 10px 10px 20px red;
+    border-radius: 10px 40px 60px 40px;
+    transition: all 1s;
+	-webkit-transform-origin: center bottom;
+}
+
+.col
+{
+	float: left;
+	position: absolute;
+}
+
+.col2
+{
+	top: 100px;
+	float: left;
+	position: absolute;
+}
+
+#girar
+{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: auto;
+	margin-top: 60px;
+	position: relative;
+	/*-webkit-transform: scale(1.5,1.5)*/
+	transition: all 1s;
+	-webkit-transform-origin: center center;
+
+}
+
+h1
+{
+	font-family: 'Trade Winds', cursive;
+}
+
+p
+{
+	font-family: 'Joti One';
+}
+
+
